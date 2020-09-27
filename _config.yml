@@ -1,13 +1,13 @@
-title: dash
-author: GitHub User
-email: miguel-gonzalez@gmx.de
+title: root
+author: coffstation
+email: HLN@thromail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hola, me dicen León y soy estudiante en informática! De vez en cuando escribo aquí en mi blog sobre la informatica en general, el desarrollo de web o quizas de video juegos. 
+  Naci y me crie en chile, estudio en DuocUc Puente alto - Santiago.
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
-paginate: 1
+paginate: 7
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
@@ -17,23 +17,23 @@ tag_page_dir: tag
 # jekyll-dash date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 dash:
-  date_format: "%b %-d, %Y"
+  date_format: "%d-%M-%dY"
 
   disqus:
-    shortname: bitbrain-github-io
+    shortname: coffstation
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
+    - url: https://twitter.com/Hleon_ing
       icon: twitter-square
-      color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
-    - url: https://github.com/bitbrain
-      icon: github-square
-      color: purple
+      color: orange
+  #    - url: https://bitbrain.itch.io
+  #      icon: itch-io
+  #      color: red
+  #    - url: https://github.com/bitbrain
+  #      icon: github-square
+  #      color: purple
 
   show_author: true
 
@@ -43,12 +43,11 @@ dash:
 theme: jekyll-dash
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-paginate
- - liquid-md5
- - jekyll/tagging
-
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - liquid-md5
+  - jekyll/tagging
 # Replaces the default avatar provider (gravatar)
-#avatar_source: github
-#github_username: bitbrain
+avatar_source: github
+github_username: coffstation

@@ -1,7 +1,7 @@
 .toggleWrapper {
   display: inline-block;
   float: right;
-  position:relative;
+  position: relative;
 
   input {
     display: none !important;
@@ -12,9 +12,9 @@
   cursor: pointer;
   display: inline-block;
   position: relative;
-  width:49px;
+  width: 49px;
   height: 28px;
-  background-color: #4FC1E4;
+  background-color: #4fc1e4;
   border-radius: 45px - 6;
   transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
@@ -27,15 +27,15 @@
   left: 3px;
   width: 25px - 3;
   height: 25px - 3;
-  background-color: #FFCF96;
+  background-color: #ffcf96;
   border-radius: 25px;
-  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transform:  rotate(-45deg);
+  transform: rotate(-45deg);
 
   .crater {
     position: absolute;
-    background-color: #E8CDA5;
+    background-color: #e8cda5;
     opacity: 0;
     transition: opacity 200ms ease-in-out;
     border-radius: 100%;
@@ -107,7 +107,7 @@
   z-index: 0;
   width: 2px;
   height: 2px;
-  transform: translate3d(3px,0,0);
+  transform: translate3d(3px, 0, 0);
 }
 
 .star--5 {
@@ -116,7 +116,7 @@
   z-index: 0;
   width: 3px;
   height: 3px;
-  transform: translate3d(3px,0,0);
+  transform: translate3d(3px, 0, 0);
 }
 
 .star--6 {
@@ -125,15 +125,15 @@
   z-index: 0;
   width: 2px;
   height: 2px;
-  transform: translate3d(3px,0,0);
+  transform: translate3d(3px, 0, 0);
 }
 
 input:checked {
   + .toggle {
-    background-color: #637AFE;
+    background-color: #637afe;
 
     &:before {
-      color: #637AFE;
+      color: #637afe;
     }
 
     &:after {
@@ -141,10 +141,12 @@ input:checked {
     }
 
     .toggle__handler {
-      background-color: #FFE5B5;
+      background-color: #ffe5b5;
       transform: translate3d(20px, 0, 0) rotate(0);
 
-      .crater { opacity: 1; }
+      .crater {
+        opacity: 1;
+      }
     }
 
     .star--1 {
@@ -168,7 +170,7 @@ input:checked {
     .star--5,
     .star--6 {
       opacity: 1;
-      transform: translate3d(0,0,0);
+      transform: translate3d(0, 0, 0);
     }
     .star--4 {
       transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -181,4 +183,3 @@ input:checked {
     }
   }
 }
-
