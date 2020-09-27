@@ -13,12 +13,18 @@ endunless %}
     {% endfor %}
   </div>
   {% endif %}
-  <div class="post-date">Publicado el {% include date_es.html date=page.date %}</div>
+  <div class="post-date">
+    Publicado el {% include date_es.html date=page.date %}
+  </div>
   {% if page.description != null %}
   <noscript>
     <div class="post-description">{{ page.description }}</div>
   </noscript>
-  <div id="animated-post-description" class="post-description" style="display: none"></div>
+  <div
+    id="animated-post-description"
+    class="post-description"
+    style="display: none"
+  ></div>
   {% endif %} {{ content }}
 </div>
 
