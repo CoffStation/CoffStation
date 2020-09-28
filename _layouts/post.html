@@ -28,9 +28,26 @@ endunless %}
   {% endif %} {{ content }}
 </div>
 
+<!--Disquis-->
 {% if site.dash.disqus.shortname %}
 <div class="comments">{% include disqus.html %}</div>
-{% endif %} {% assign size = site.related_posts | size %} {% if size != 0 %}
+{% endif %}
+<!--Fin de disquis-->
+
+<!--issues-->
+<div class="comments">
+  <script
+    src="https://utteranc.es/client.js"
+    repo="coffstation/coffstation.github.io"
+    issue-term="pathname"
+    label="Comentario"
+    theme="dark-blue"
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+<!--Fin -->
+{% assign size = site.related_posts | size %} {% if size != 0 %}
 <div class="related">
   <h2>Artículos Relacionados</h2>
   <ul class="related-posts">
