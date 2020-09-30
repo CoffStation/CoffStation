@@ -27,7 +27,20 @@ endunless %}
   ></div>
   {% endif %} {{ content }}
 </div>
-
+<div class="comments">
+  <!-- COMMENTS START -->
+  <div id="hyvor-talk-view"></div>
+  <script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 570; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+      loadMode: "scroll",
+      url: false,
+      id: false,
+    };
+  </script>
+  <script type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+  <!-- COMMENTS END -->
+</div>
 {% if site.dash.disqus.shortname %}
 <div class="comments">{% include disqus.html %}</div>
 {% endif %} {% assign size = site.related_posts | size %} {% if size != 0 %}
