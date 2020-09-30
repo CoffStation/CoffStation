@@ -27,7 +27,7 @@ dash:
   social_links:
     - url: https://twitter.com/Hleon_ing
       icon: twitter-square
-      color: orange
+      color: cyan
   #    - url: https://bitbrain.itch.io
   #      icon: itch-io
   #      color: red
