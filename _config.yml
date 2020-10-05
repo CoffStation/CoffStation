@@ -20,7 +20,7 @@ dash:
   date_format: "%d-%M-%dY"
 
   disqus:
-    shortname:
+    shortname: coffstation
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
