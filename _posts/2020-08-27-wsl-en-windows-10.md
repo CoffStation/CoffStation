@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "¿Cómo acceder a los archivos WSL en Windows 10?"
+title: "Acceder a los archivos WSL en W10"
 tags: Guias, Linux, W10
+description: ¿Cómo acceder a los archivos WSL en Windows 10?
 ---
 
 ### Datos Importantes para acceder a los archivos Linux de WSL

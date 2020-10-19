@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Estructura Procedimiento Almacenados en PL/SQL"
+title: "Procedimiento Almacenados "
 tags: Oracle Database
-description: Estructura Procedimientos Almacenados..
+description: Estructura Procedimientos Almacenados en PL/SQL..
 ---
 
 

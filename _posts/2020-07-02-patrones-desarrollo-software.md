@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Patrones de Diseño en Desarrollo Software"
+title: "Patrones de Diseño"
 tags: Software
+description: Patrones de Diseño en Desarrollo Software
 ---
 
 Los Patrones se clasifican en 3 Grupos:
