@@ -1,6 +1,6 @@
 title: root
-author: coffstation
-email: HLN@thromail.com
+author: Phelions
+email: phelions.dev@outlook.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Hola, me dicen León y soy estudiante en informática! De vez en cuando escribo aquí en mi blog sobre la informática en general, el desarrollo web o quizás de video juegos. 
   Nací y me crie en chile, estudio en Duoc UC Puente alto - Santiago.
@@ -50,4 +50,4 @@ plugins:
   - jekyll/tagging
 # Replaces the default avatar provider (gravatar)
 avatar_source: github
-github_username: coffstation
+github_username: phelions
